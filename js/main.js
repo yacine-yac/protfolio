@@ -103,30 +103,30 @@
 	/*---------------------------------------------------- */
 	/*	Masonry
 	------------------------------------------------------ */
-	var containerProjects = $('#folio-wrapper');
+	// var containerProjects = $('#folio-wrapper');
 
-	containerProjects.imagesLoaded( function() {
+	// containerProjects.imagesLoaded( function() {
 
-		containerProjects.masonry( {		  
-		  	itemSelector: '.folio-item',
-		  	resize: true 
-		});
+	// 	containerProjects.masonry( {		  
+	// 	  	itemSelector: '.folio-item',
+	// 	  	resize: true 
+	// 	});
 
-	});
+	// });
 
 
 	/*----------------------------------------------------*/
 	/*	Modal Popup
 	------------------------------------------------------*/
-   $('.item-wrap a').magnificPopup({
+//    $('.item-wrap a').magnificPopup({
 
-      type:'inline',
-      fixedContentPos: false,
-      removalDelay: 300,
-      showCloseBtn: false,
-      mainClass: 'mfp-fade'
+//       type:'inline',
+//       fixedContentPos: false,
+//       removalDelay: 300,
+//       showCloseBtn: false,
+//       mainClass: 'mfp-fade'
 
-   });
+//    });
 
    $(document).on('click', '.popup-modal-dismiss', function (e) {
    	e.preventDefault();

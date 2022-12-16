@@ -1,0 +1,58 @@
+
+.projects-item{
+    width: 97vw;height: 150vh;display: grid;padding: 5%;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-row-gap:10px;margin: auto;
+    grid-column-gap:15px;  background-color: #ebebeb; 
+}
+.projects-item > div{
+    position: relative;z-index: 2;overflow: hidden;
+   
+    background: center  ;
+    background-size: contain;
+}
+.projects-item > div:nth-child(1){
+    background: center url("../images/projects/pattern.png");
+} 
+.projects-item > div:nth-child(2){
+    background: center url("../images/projects/keyboard.png");
+} 
+.projects-item > div:nth-child(3){
+    background: center url("../images/projects/quiz.png");
+} 
+.projects-item > div:nth-child(4){
+    background: center url("../images/projects/upload.png");
+} 
+.overly-item{
+    width: 100%;height: 100%;;
+    position: absolute;z-index: 20; 
+    background-color: rgba(40, 44, 57, 0.789); 
+    transform: translateX( -100%);
+}
+.projects-item > div:hover .overly-item{
+    transform: translateX(0%);transition: 0.43s ease-in;
+}
+.overly-item .bottom{
+    position: absolute;margin: auto;
+    bottom: 0; 
+    width: 100%;height: 35%;background-color: #303743;
+    transform: translateY( 100%);
+}
+.projects-item > div:hover .bottom{
+    transform: translateY(0%);transition: 0.53s ease-in;
+}
+.overly-item .bottom h1{
+    color: white;margin: 10px;
+
+}
+.overly-item ul{ 
+    width: 100%;height: 80%;margin: auto;
+
+}
+.overly-item ul li{
+    width: 40%;height: 60%;list-style-type: none;
+}
+.overly-item .bottom p{
+    width: 70%;color: rgb(203, 203, 201);margin-left: 10px;
+}

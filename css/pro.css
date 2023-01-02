@@ -12,16 +12,16 @@
     background: center  ;
     background-size: contain;
 }
-.projects-item > div:nth-child(1){
+.projects-item > div:nth-child(2){
     background: center url("../images/projects/pattern.png");
 } 
-.projects-item > div:nth-child(2){
+.projects-item > div:nth-child(3){
     background: center url("../images/projects/keyboard.png");
 } 
-.projects-item > div:nth-child(3){
+.projects-item > div:nth-child(4){
     background: center url("../images/projects/quiz.png");
 } 
-.projects-item > div:nth-child(4){
+.projects-item > div:nth-child(1){
     background: center url("../images/projects/upload.png");
 } 
 .overly-item{
